@@ -1,5 +1,5 @@
 import requests
-from src.constants import response_list_of_users_endpoint, list_users_endpoint
+from src.constants import list_users_endpoint
 
 
 def list_of_users(num):

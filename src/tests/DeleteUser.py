@@ -3,7 +3,6 @@ from src.constants import user_endpoint
 from SingleUser import single_user
 
 
-
 def deleteUser(num):
     try:
         r = requests.delete(f'{user_endpoint}/{num}')
